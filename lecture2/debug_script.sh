@@ -7,5 +7,5 @@ while [ $? -eq 0 ]; do
     count=$(( count + 1))
     ./$file
 done
-echo $count
+echo "It takes $count times to find the error."
 
