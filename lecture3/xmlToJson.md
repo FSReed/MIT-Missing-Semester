@@ -1,4 +1,4 @@
-# Command for coverting xml to json
+# Command for converting xml to json
 
 1. `gg0`, make sure we are starting from the top left of the file.
 2. `qsi    <Esc>j0q`, indent with 4 spaces. 
@@ -8,4 +8,6 @@
 6. `ggqpC{<Esc>j0@eA,<Esc>j0@ej0C      }<Esc>j0^q`, 6 spaces.
 7. `gg4j1000@p`
 8. Add other elements manually.
+
+> Better modularize the process. For example, use one macro `A` to format one element, e.g., "name" or "email". Use another macro `B` to format one person, using that macro `A`. Check this one the course website.
 
