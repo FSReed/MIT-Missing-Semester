@@ -1,5 +1,4 @@
 # To get useful lines
-#
 
 BEGIN {
   table_count = 0
