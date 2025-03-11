@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+
+if make paper.pdf >/dev/null 2>&1; then
+  echo "Everything goes well"
+  exit 0
+else
+  echo "Makefile returns with error"
+  exit 1
+fi
