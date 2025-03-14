@@ -26,3 +26,6 @@ The password I set was `fsreed`. Use this password to decrypt `Encrypted`
 
 Have fun!
 
+> I met with this problem when signing a commit: `gpg: signing failed: Inappropriate ioctl for device`.  
+> Then I find [this issue](https://github.com/keybase/keybase-issues/issues/2798) to be really helpful.
+
